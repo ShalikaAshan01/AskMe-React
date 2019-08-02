@@ -1,0 +1,170 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/*Custom css*/
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+  position: absolute;
+  display: block;
+  top: 0;
+  /*left: 0;*/
+  /*z-index: 0;*/
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size: cover;
+  /*height: 100%;*/
+}
+.signin{
+  background: rgba(245, 245, 245, 0.7) !important;
+}
+.text-underline-hover:hover{
+  text-decoration: underline;
+}
+.cursor-pointer{
+  cursor: pointer !important;
+}
+.cursor-default{
+  cursor: default !important;
+}
+.copyright{
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-bottom: 15px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+.divider-6{
+  width: 65px !important;
+  height: 65px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+  /*border-color: red;*/
+}
+.error-otp{
+  border-color: #ef5350;
+  color: red;
+}
+.sweet-loading{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+.nav-link{
+  color: #1C2331;
+}
+.nav-link::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #000;
+  transition: width .3s;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+  /*transition: width .3s;*/
+}
+
+.switch-field {
+  display: flex;
+  margin-bottom: 36px;
+  overflow: hidden;
+}
+
+.switch-field input {
+  position: absolute !important;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  width: 1px;
+  border: 0;
+  overflow: hidden;
+}
+
+.switch-field label {
+  background-color: #e4e4e4;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 14px;
+  line-height: 1;
+  text-align: center;
+  padding: 8px 16px;
+  margin-right: -1px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.1);
+  transition: all 0.1s ease-in-out;
+}
+
+.switch-field label:hover {
+  cursor: pointer;
+}
+
+.switch-field input:checked + label {
+  background-color: #a5dc86;
+  box-shadow: none;
+}
+
+.switch-field label:first-of-type {
+  border-radius: 4px 0 0 4px;
+}
+
+.switch-field label:last-of-type {
+  border-radius: 0 4px 4px 0;
+}
+.notification-top-right{
+  position: absolute;
+  top: 50px;
+  right: 0;
+}
+.notification-bottom-right{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.font-bold{
+  font-weight: bold;
+}
+/*search*/
+.search-container{
+  z-index: 30000000000000 !important;
+  position: absolute;
+}
