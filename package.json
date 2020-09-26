@@ -11,14 +11,14 @@
     "md5": "^2.2.1",
     "mdbreact": "^4.22.0",
     "moment": "^2.24.0",
-    "node-sass": "^4.13.0",
+    "node-sass": "^4.14.1",
     "particlesjs": "^2.2.3",
     "react": "^16.11.0",
     "react-dom": "^16.12.0",
     "react-html-parser": "^2.0.2",
     "react-otp-input": "^1.0.1",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.3.0",
+    "react-scripts": "^3.4.3",
     "react-spinners": "^0.6.1",
     "react-tag-autocomplete": "^5.11.2",
     "react-toastify": "^5.4.1",
@@ -34,5 +34,5 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "browserslist":[]
+  "browserslist": []
 }

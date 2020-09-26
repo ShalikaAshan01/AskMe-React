@@ -125,10 +125,10 @@ class Signin extends Component {
 
     }
     handelFacebook(){
-        window.open("https://askme-248409.appspot.com/users/auth/facebook", "_self");
+        window.open(process.env.REACT_APP_NODE_API+"/users/auth/facebook", "_self");
     }
     static handelGoogle(){
-            window.open("https://askme-248409.appspot.com/users/auth/google", "_self");
+            window.open(process.env.REACT_APP_NODE_API+"/users/auth/google", "_self");
     }
 
     render() {
