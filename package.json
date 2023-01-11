@@ -7,7 +7,7 @@
     "animate.css": "^3.7.2",
     "axios": "^0.21.1",
     "font-awesome": "^4.7.0",
-    "jsonwebtoken": "^8.5.1",
+    "jsonwebtoken": "^9.0.0",
     "md5": "^2.2.1",
     "mdbreact": "^4.22.0",
     "moment": "^2.24.0",
